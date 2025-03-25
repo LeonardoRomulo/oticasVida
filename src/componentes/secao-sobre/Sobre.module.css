@@ -1,0 +1,91 @@
+.container_sobre {
+    padding: 100px 20px;
+    background-color: #f8f7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_titulo {
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container_titulo p {
+    font-size: 14px;
+    color: #000000;
+}
+
+
+
+.container_info {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container_filiais, .container_atendimento {
+    width: 100%;
+    flex: 1 1 300px;
+    display: flex;
+    align-items: center;
+}
+
+.container_atendimento {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.card_info {
+    background-color: #fff;
+    max-width: 100%;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 1px solid #4a4a4a;
+
+}
+
+.card_info h2 {
+    font-size: 36px;
+    text-align: center;
+}
+.card_info p {
+    color: #4a4a4a;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card_img {
+    border: 1px solid #4a4a4a;
+    width: 50%;
+    height: 300px;
+}
+
+.img_loja {
+    width: 100%;
+    height: 300px;
+}
+
+.img_atendimento {
+    width: 100%;
+    height: 300px;
+}

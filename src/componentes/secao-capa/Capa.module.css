@@ -1,0 +1,36 @@
+.secao_capa {
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url('../../../public/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.container_titulo {
+    width: 50%;
+    color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.titulo{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.titulo h1 {
+    font-size: 62px;
+}
+.titulo p {
+    font-size: 34px;
+}

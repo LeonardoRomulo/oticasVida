@@ -1,0 +1,39 @@
+.topo{
+    width: 100%;
+    /* position: fixed;
+    z-index: 1; */
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px 0;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover{
+    /* color: blue; */
+}
+
+.img_logo {
+    height: 50px;
+    width: 180px;
+}
