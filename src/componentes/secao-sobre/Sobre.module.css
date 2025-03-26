@@ -68,6 +68,7 @@
     font-size: 36px;
     text-align: center;
 }
+
 .card_info p {
     color: #4a4a4a;
     font-size: 22px;
@@ -88,4 +89,37 @@
 .img_atendimento {
     width: 100%;
     height: 300px;
+}
+
+@media (max-width: 550px) {
+
+    .card_info{
+        width: 100%;
+    }
+    .container_filiais, .container_atendimento {
+        flex-direction: column;
+        /* Alinha os cards verticalmente */
+    }
+
+    .card_img{
+        width: 100%;
+        /* Cada card ocupa 100% da largura em telas menores */
+    }
+}
+
+@media (max-width: 412px) {
+    .container_filiais, .container_atendimento {
+        flex-direction: column;
+        /* Alinha os cards verticalmente */
+    }
+
+    .container_filiais, .container_atendimento {
+        width: 100%;
+        /* Cada card ocupa 100% da largura em telas menores */
+    }
+
+    .card_info, .card_img {
+        width: 100%;
+        /* Os elementos internos continuam ocupando toda a largura */
+    }
 }

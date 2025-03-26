@@ -9,7 +9,7 @@
     background: url('../../../public/capa.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: center center;
 }
 
 .container_titulo {
@@ -21,16 +21,57 @@
 }
 
 
-.titulo{
+.titulo {
     max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 20px;
 }
+
 .titulo h1 {
     font-size: 62px;
 }
+
 .titulo p {
     font-size: 34px;
+}
+
+@media (max-width: 768px) {
+        .secao_capa{
+            align-items:flex-start;
+            padding: 20px 0;
+        }
+
+        .titulo{
+            height: 40vh;
+            justify-content: space-evenly;
+        }
+    
+    .secao_capa div {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 20px;
+    }
+
+    .secao_capa h1 {
+        font-size: 40px;
+        max-width: 350px;
+    }
+
+    .secao_capa p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .secao_capa {
+        background-position: 89% center;
+    }
+
+    .secao_capa div {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 30vh;
+        height: 40vh;
+        justify-content: space-evenly;
+    }
 }

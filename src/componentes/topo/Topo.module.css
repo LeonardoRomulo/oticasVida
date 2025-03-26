@@ -1,4 +1,4 @@
-.topo{
+.topo {
     width: 100%;
     /* position: fixed;
     z-index: 1; */
@@ -23,17 +23,40 @@
     align-items: center;
 }
 
-.link{
+.link {
     color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
 
-.link:hover{
-    /* color: blue; */
+.link:hover {
+    color: blue;
 }
 
 .img_logo {
     height: 50px;
     width: 180px;
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .menu{
+        border-top: 1px solid gray;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 478px) {
+    .container {
+        justify-content: center;
+    }
+
+    .menu {
+        border-top: 1px solid gray;
+    }
 }
