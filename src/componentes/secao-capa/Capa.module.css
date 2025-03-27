@@ -38,17 +38,17 @@
 }
 
 @media (max-width: 768px) {
-        .secao_capa{
-            align-items:flex-start;
-            padding: 20px 0;
-        }
+    .secao_capa {
+        align-items: flex-start;
+        padding: 20px 0;
+    }
 
-        .titulo{
-            height: 40vh;
-            justify-content: space-evenly;
-        }
-    
-    .secao_capa div {
+    .titulo {
+        height: 40vh;
+        justify-content: space-evenly;
+    }
+
+    .container_titulo {
         background-color: rgba(0, 0, 0, 0.4);
         padding: 20px;
     }
@@ -68,10 +68,16 @@
         background-position: 89% center;
     }
 
-    .secao_capa div {
-        background-color: rgba(0, 0, 0, 0.6);
+    .container_titulo {
+        background-color: rgba(0, 0, 0, 0.8);
         width: 30vh;
-        height: 40vh;
+        height: 50vh;
+        margin: 30px;
         justify-content: space-evenly;
+    }
+
+    .secao_capa h1 {
+        font-size: 28px;
+        max-width: 350px;
     }
 }
