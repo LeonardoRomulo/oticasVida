@@ -1,0 +1,29 @@
+.menu {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #05031b;
+    gap: 40px;
+}
+
+
+.link {
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.link:hover {
+    background-color: #fff;
+    /* Cor de fundo ao passar o mouse */
+    color: #05031b;
+    /* Cor do texto ao passar o mouse */
+    transform: scale(1.1);
+    /* Aumenta o tamanho do link */
+}
