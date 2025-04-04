@@ -7,6 +7,7 @@ import Produtos from "@/componentes/secao-produtos";
 import Sobre from "@/componentes/secao-sobre/index.jsx";
 import Contato from "@/componentes/secao-contato/index.jsx";
 import Rodape from "@/componentes/rodape/index.jsx";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <SpeedInsights /> 
       <Topo />
       <Capa />
       <Produtos />
